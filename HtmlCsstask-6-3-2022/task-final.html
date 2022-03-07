@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex-4</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            background-color:green;
+            position: absolute;
+            left: 300px;
+            top: 0;
+            animation: ddd 7s linear ;
+            border-radius: 10%;
+        }
+        @keyframes ddd {
+         0% {left:700px; top: 0;  background-image: linear-gradient(green,aqua)}
+         20%{left: 700px; top: 400px;  background-image: linear-gradient(aqua,blue)}
+         40%{left: 400px; top: 400px;  background-image: linear-gradient(blue,yellow)}
+         60%{left: 0px; top: 400px;  background-image: linear-gradient(yellow,orange)}
+         80%{left:0; top: 0; background-image: linear-gradient(orange,brown)}
+         100%{left: 100px; top: 0; background-image: linear-gradient(brown,green)}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
