@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex-2</title>
+    <style>
+         
+        .a{
+            width: 40px;
+            height: 150px;
+            background-color: black;
+            border-radius: 10px;
+            margin-top: 8px;
+            padding: 10px;
+        }
+        .b,.c,.d{
+            width: 40px;
+            height: 40px;
+            background-color:#ccc;
+            margin: 7px auto;
+            border-radius: 50%;
+        }
+        .b{animation: b 1s;}
+        @keyframes b{
+            to {background-color: red;}
+        }
+        .c{animation: c 1s 1s;}
+        @keyframes c{
+            to {background-color: yellow;}
+        }
+        .d{animation: d 1s 2s;}
+        @keyframes d{
+            to{background-color: green;}
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+    </div>
+</body>
+</html>
